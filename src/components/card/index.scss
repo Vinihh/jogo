@@ -1,0 +1,40 @@
+.card {
+    width: 200px;
+    height: 270px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 5px;
+    perspective: 1000px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+
+
+
+  .card-back > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+    border: 5px solid rgba(23, 14, 86, 1);
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+  } 
+
+ 
