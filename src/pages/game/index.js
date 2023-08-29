@@ -5,7 +5,7 @@ import './index.scss';
 function Game() {
  
   return (
-    <div className="pagina-home">
+    <div className="pagina-game">
      
       <button> 
      

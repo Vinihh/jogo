@@ -14,7 +14,7 @@ function Hard() {
   const [pares, setPares] = useState([]);
 
   function embaralhar(array) {
-    return array.sort(() => Math.random() - 1);
+    return array.sort(() => Math.random() - 0.5);
   }
 
   const clicar = index => {

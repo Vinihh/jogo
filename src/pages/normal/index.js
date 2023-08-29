@@ -35,7 +35,7 @@ function Normal() {
   };
 
   useEffect(() => {
-    if (pares.length === imagens.length / 2) {
+    if (pares.length === imagens.length / 2 ) {
       window.location.href = 'http://localhost:3000/congratulations';
     }
   }, [pares, imagens.length]);

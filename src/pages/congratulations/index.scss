@@ -71,4 +71,15 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  @media (max-width: 414px) {
+  
+        h1 {
+          font-size: 30px;
+          width: 380px;
+          -webkit-text-stroke: transparent;
+          word-spacing: 2px;
+        }
+  }
 }
+

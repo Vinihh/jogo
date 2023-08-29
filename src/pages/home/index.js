@@ -2,9 +2,11 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
 
+
 function Home() {
  
   return (
+    
     <div className="pagina-home">
       <Link to="jogo-da-memória"> 
       <button> 
